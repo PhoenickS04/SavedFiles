@@ -379,7 +379,8 @@ if __name__ == "__main__":
     # Print results
     for dep in dependencies:
         ambiguous = " (AMBIGUOUS)" if dep.is_ambiguous else ""
-        print(f"{dep.source_object.full_name} -> {dep.relationship.value} -> {dep.target_object.full_name}{ambiguous}")```
+        print(f"{dep.source_object.full_name} -> {dep.relationship.value} -> {dep.target_object.full_name}{ambiguous}")
+```
 
 This schema-focused approach gives you:
 
